@@ -10,5 +10,4 @@ def key_for_min_value(name_hash)
       array << value
     end
   end  
-  binding.pry
 end
