@@ -8,8 +8,7 @@ def key_for_min_value(name_hash)
       return nil
     else
       array << value
+      binding.pry
     end
-    if array.length >= 2
-      
   end    
 end
