@@ -9,6 +9,5 @@ def key_for_min_value(name_hash)
     else
       array << value
     end
-    binding.pry
   end  
 end
