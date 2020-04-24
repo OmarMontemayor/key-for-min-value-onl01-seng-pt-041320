@@ -3,13 +3,19 @@
 
 def key_for_min_value(name_hash)
   array = []
+  value1 = 0
+  value2
   name_hash.collect do |key, value|
     if name_hash == {}
       return nil
+    elsif value > 0
+      value1 = value
+      
     else
-      array << value
+      
     end
    
   end  
+    
   binding.pry
 end
