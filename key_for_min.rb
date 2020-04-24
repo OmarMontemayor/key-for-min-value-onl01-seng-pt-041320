@@ -10,8 +10,5 @@ def key_for_min_value(name_hash)
       array << value
     end
   end  
-  array.each do |num|
-    if array[0] < array[1]
-      
   binding.pry
 end
