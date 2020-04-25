@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   value1 = 1
   name_hash.collect do |key, value|
     if name_hash == {}
-      return nil
+      nil
     end
   end  
 end
