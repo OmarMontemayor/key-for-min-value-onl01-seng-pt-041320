@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     if value <= 1
       lowest_value = value
     end
+    return key
   end 
   binding.pry
 end
