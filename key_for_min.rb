@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   lowest_value = 1
+  lowest_key = ""
   if name_hash == {}
     return nil
   end
@@ -12,6 +13,6 @@ def key_for_min_value(name_hash)
     elsif value > 1 && value < 100
       lowest_value = value
     end
-    return key
+    return 
   end 
 end
